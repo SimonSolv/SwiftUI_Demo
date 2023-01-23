@@ -45,7 +45,7 @@ struct ProfileView: View {
                         
                         Divider()
                             .border(Color.gray, width: 2)
-
+                        
                         TextField(
                             "Password",
                             text: $password
@@ -63,8 +63,8 @@ struct ProfileView: View {
                     
                     .padding([.leading, .trailing])
                     .clipped()
-
- 
+                    
+                    
                     Button(action: {
                         print("Login button tapped")
                     }, label: {
@@ -122,18 +122,22 @@ struct ProfileView: View {
                         )
                     }
                 }
-     
+                
             })
-                .tabItem {
-                    Image(systemName: "bookmark.circle.fill")
-                    Text("Bookmark")
-                }
-            Text("Video Tab")
+            .tabItem {
+                Image(systemName: "bookmark.circle.fill")
+                Text("Bookmark")
+            }
+            HStack{
+                Text("Video Tab")
                     .modifier(Title())
-                    .tabItem {
-                        Image(systemName: "video.circle.fill")
-                        Text("Video")
-                    }
+                Text("Video Tab")
+                    .modifier(Regular())
+            }
+            .tabItem {
+                Image(systemName: "video.circle.fill")
+                Text("Video")
+            }
         }
         
         
