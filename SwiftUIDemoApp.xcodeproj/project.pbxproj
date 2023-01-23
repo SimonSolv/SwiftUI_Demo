@@ -11,6 +11,8 @@
 		CE0F681F297D546E007B007F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F681E297D546E007B007F /* ContentView.swift */; };
 		CE0F6821297D5470007B007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0F6820297D5470007B007F /* Assets.xcassets */; };
 		CE0F6824297D5470007B007F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0F6823297D5470007B007F /* Preview Assets.xcassets */; };
+		CE0F682B297DA1A6007B007F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F682A297DA1A6007B007F /* Profile.swift */; };
+		CE0F682D297EFAF5007B007F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F682C297EFAF5007B007F /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE0F681E297D546E007B007F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE0F6820297D5470007B007F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0F6823297D5470007B007F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE0F682A297DA1A6007B007F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CE0F682C297EFAF5007B007F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				CE0F681E297D546E007B007F /* ContentView.swift */,
 				CE0F6820297D5470007B007F /* Assets.xcassets */,
 				CE0F6822297D5470007B007F /* Preview Content */,
+				CE0F682A297DA1A6007B007F /* Profile.swift */,
+				CE0F682C297EFAF5007B007F /* CustomModifiers.swift */,
 			);
 			path = SwiftUIDemoApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0F681F297D546E007B007F /* ContentView.swift in Sources */,
+				CE0F682D297EFAF5007B007F /* CustomModifiers.swift in Sources */,
+				CE0F682B297DA1A6007B007F /* Profile.swift in Sources */,
 				CE0F681D297D546E007B007F /* SwiftUIDemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
